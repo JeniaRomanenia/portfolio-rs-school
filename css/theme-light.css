@@ -1,0 +1,167 @@
+:root {
+    --color-gold: #bdae82;
+    --color-black: #000000;
+    --color-white: #ffffff;
+  }
+  
+  body {
+    background-color: var(--color-white);
+  }
+  
+  /*Hero*/
+  
+  .hero-box {
+    color: var(--color-white);
+  }
+  
+  .btn {
+    background-color: var(--color-gold);
+  }
+  
+  .btn:hover {
+    color: var(--color-white);
+  }
+  
+  /*Skills*/
+  .title-section {
+    color: var(--color-black);
+  }
+  
+  .title-section::before {
+    background-color: var(--color-black);
+  }
+  
+  .title-section::after {
+    background-color: var(--color-black);
+  }
+  
+  .icon-camera {
+    fill: var(--color-gold);
+  }
+  
+  .skills-main {
+    color: var(--color-black);
+  }
+  
+  .skills-text {
+    color: var(--color-black);
+  }
+  
+  /*Portfolio*/
+  .btn-portfolio {
+    border: 2px solid var(--color-gold);
+    color: var(--color-gold);
+  }
+  
+  .btn-portfolio:hover {
+    color: var(--color-black);
+    background: var(--color-gold);
+  }
+  
+  .btn-portfolio-active {
+    color: var(--color-white);
+    background-color: var(--color-gold);
+  }
+  
+  /*Video*/
+  
+  .icon-play {
+    fill: var(--color-white);
+  }
+  
+  .icon-play:hover {
+    fill: var(--color-gold);
+  }
+  
+  /*Price*/
+  .price-item {
+    color: var(--color-black);
+    border: 3px solid var(--color-gold);
+  }
+  
+  .item-price {
+    color: var(--color-gold);
+  }
+  
+  /*Contact*/
+  
+  .title-contact {
+    color: var(--color-gold);
+  }
+  
+  .email,
+  .textarea,
+  .phone {
+    border-color: var(--color-gold);
+  }
+  
+  ::placeholder {
+    color: #bdae82;
+  }
+  
+  /*Footer*/
+  
+  .footer {
+    color: var(--color-white);
+    background: var(--color-black);
+  }
+  
+  .rss {
+    color: var(--color-white);
+  }
+  
+  .rss:hover {
+    color: var(--color-gold);
+  }
+  
+  .footer-icon {
+    fill: var(--color-white);
+  }
+  
+  .footer-icon:hover {
+    fill: var(--color-gold);
+  }
+  
+  /*Media*/
+  
+  @media (max-width: 768px) {
+    .nav-list {
+      background: var(--color-white);
+    }
+  
+    .line {
+      background: var(--color-white);
+    }
+  
+    .hamburger.open .line1 {
+      background: var(--color-black);
+    }
+  
+    .hamburger.open .line3 {
+      background: var(--color-black);
+    }
+  
+    .nav-l {
+      color: var(--color-black);
+    }
+  
+    .email,
+    .textarea,
+    .phone {
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .nav-list {
+      background: var(--color-white);
+    }
+  }
+  
+  .change-theme[data-theme="dark"] {
+    display: block;
+  }
+  .change-theme[data-theme="light"] {
+    display: none;
+  }
+  

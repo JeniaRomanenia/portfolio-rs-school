@@ -1,0 +1,194 @@
+:root {
+    --color-gold: #bdae82;
+    --color-black: #000000;
+    --color-white: #ffffff;
+  }
+  
+  body {
+    color: #3d3b3c;
+    background-color: var(--color-black);
+  }
+  
+  .icon-logo {
+    fill: var(--color-white);
+  }
+  
+  .icon-logo:hover {
+    fill: var(--color-gold);
+  }
+  
+  .link {
+    color: var(--color-white);
+  }
+  
+  .nav-l:hover {
+    color: var(--color-gold);
+  }
+  
+  .lang:hover {
+    color: var(--color-gold);
+  }
+  
+  .lang-active {
+    color: var(--color-gold);
+  }
+  
+  .moon {
+    fill: var(--color-white);
+  }
+  
+  .moon:hover {
+    fill: var(--color-gold);
+  }
+  
+  .sun {
+    fill: var(--color-white);
+  }
+  
+  .sun:hover {
+    fill: var(--color-gold);
+  }
+  
+  /*Hero*/
+  
+  .hero-box {
+    color: var(--color-white);
+  }
+  
+  .btn {
+    background-color: var(--color-gold);
+  }
+  
+  .btn:hover {
+    color: var(--color-white);
+  }
+  
+  /*Skills*/
+  .title-section {
+    color: var(--color-gold);
+  }
+  
+  .title-section::before {
+    background-color: var(--color-gold);
+  }
+  
+  .title-section::after {
+    background-color: var(--color-gold);
+  }
+  
+  .icon-camera {
+    fill: var(--color-gold);
+  }
+  
+  .skills-main {
+    color: var(--color-white);
+  }
+  
+  .skills-text {
+    color: var(--color-white);
+  }
+  
+  /*Portfolio*/
+  .btn-portfolio {
+    border: 2px solid var(--color-gold);
+    color: var(--color-gold);
+  }
+  
+  .btn-portfolio:hover {
+    color: var(--color-white);
+  }
+  
+  .btn-portfolio-active {
+    color: var(--color-black);
+    background-color: var(--color-gold);
+  }
+  
+  /*Video*/
+  
+  .icon-play {
+    fill: var(--color-white);
+  }
+  
+  .icon-play:hover {
+    fill: var(--color-gold);
+  }
+  
+  /*Price*/
+  .price-item {
+    color: var(--color-white);
+    border: 3px solid var(--color-gold);
+  }
+  
+  .item-price {
+    color: var(--color-gold);
+  }
+  
+  /*Contact*/
+  
+  .title-contact {
+    color: var(--color-gold);
+  }
+  
+  .email,
+  .textarea,
+  .phone {
+    border-color: var(--color-gold);
+  }
+  
+  ::placeholder {
+    color: #bdae82;
+  }
+  
+  /*Footer*/
+  
+  .footer {
+    color: var(--color-white);
+  }
+  
+  .rss {
+    color: var(--color-white);
+  }
+  
+  .rss:hover {
+    color: var(--color-gold);
+  }
+  
+  .footer-icon {
+    fill: var(--color-white);
+  }
+  
+  .footer-icon:hover {
+    fill: var(--color-gold);
+  }
+  
+  /*Media*/
+  
+  @media (max-width: 768px) {
+    .nav-list {
+      background: var(--color-black);
+    }
+  
+    .line {
+      background: var(--color-white);
+    }
+  
+    .email,
+    .textarea,
+    .phone {
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .nav-list {
+      background: var(--color-black);
+    }
+  }
+  
+  .change-theme[data-theme="dark"] {
+    display: none;
+  }
+  .change-theme[data-theme="light"] {
+    display: block;
+  }
+  
